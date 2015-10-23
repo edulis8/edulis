@@ -1,0 +1,51 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* center the lis in the navbar: */
+
+.navbar .nav,
+.navbar .nav > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+    *zoom:1; /* hasLayout ie7 trigger */
+    vertical-align: top;
+}
+
+#navbar {
+	text-align: center;
+}
+
+/* place navbar at bottom of jumbotron */
+
+.jumbotron {
+	position: relative;
+	margin-top: 0;
+}
+
+.jumbotron nav {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
