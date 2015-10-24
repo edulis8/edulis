@@ -37,7 +37,7 @@
 		left: 0;
 		margin-bottom: 0;
 	}
-/*---- end place navbar at bottom ----*/
+/*----------------------------------------------*/
 
 
 /* navbar styles */
@@ -51,14 +51,29 @@
 .jumbotron {
 	background: url("../img/box.jpg") no-repeat center;
 	background-size: cover;
-	margin-bottom: 1px;
+	margin-bottom: 5px;
 }
 
-.jumbotron h1, .jumbotron p{
-	color: ghostwhite;
+/* contact styles */
+
+.contact span.glyphicon {
+	font-size: 30px;
+}
+
+.contact a.btn {
+	text-align: left;
 }
 
 
+
+
+/* FOOTER */
+
+footer {
+	background-color: lightgrey;
+	position: absolute;
+	bottom: 0;
+}
 
 
 /* +++++++ MEDIA QUERIES +++++++++ */
