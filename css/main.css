@@ -54,7 +54,7 @@
 	margin-bottom: 5px;
 }
 
-/* contact styles */
+/* contact button styles */
 
 .contact span.glyphicon {
 	font-size: 30px;
@@ -62,6 +62,13 @@
 
 .contact a.btn {
 	text-align: left;
+}
+
+/*------*/
+.square {
+	width: 200px;
+	height: 200px;
+	background-color: orange;
 }
 
 
