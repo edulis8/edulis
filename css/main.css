@@ -62,12 +62,10 @@
 
 .contact a.btn {
 	text-align: left;
+	margin-bottom: 10px;
 }
 
-.instawidget {
-	margin-top: 10px;
 
-}
 /*---widget---*/
 
 /*----INTRO-----*/
@@ -108,9 +106,28 @@
 #slide3 {
    background: url(../img/carousel/muddle.jpg) bottom no-repeat;
 }
+/*__________carousel 2 items___________*/
+#second-slide1{
+	background: url(../img/carousel/fridgetams.jpg) center no-repeat;	
+}
+#second-slide2{
+	background: url(../img/carousel/yellow-tams.jpg) center no-repeat;
+}
 
+#second-slide3{
+	background: url(../img/carousel/gold-tams.jpg) center no-repeat;
+}
 
+#third-slide1{
+	background: url(../img/carousel/green-pfruit.jpg) center no-repeat;	
+}
+#third-slide2{
+	background: url(../img/carousel/yellow-tams.jpg) center no-repeat;
+}
 
+#third-slide3{
+	background: url(../img/carousel/gold-tams.jpg) center no-repeat;
+}
 
 /* FOOTER */
 
