@@ -48,10 +48,10 @@
 
 /* jumbotron/header styles */
 
-.jumbotron {
+.jumbotron:first-of-type {
 	background: url("../img/box.jpg") no-repeat center;
 	background-size: cover;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 }
 
 /* contact button styles */
@@ -65,15 +65,26 @@
 }
 
 .instawidget {
-	margin-top: 15px;
+	margin-top: 10px;
 
 }
 /*---widget---*/
 
+/*----INTRO-----*/
+.intro {
+	margin-top: 10px;
+}
+.intro .thumbnail {
+	padding: 7px;
+	/*background-color: #ddd;*/
+}
+
+
+
 /*-----carousel------*/
 
-#myCarousel {
-   margin-top: 60px;
+#myCarousel, #myCarousel2, #myCarousel3  {
+   margin-top: 10px;
 }
 
 .carousel-caption {
@@ -84,7 +95,7 @@
    font-size: 32px;
 }
 
-#myCarousel .item {
+#myCarousel .item, #myCarousel2 .item, #myCarousel3 .item {
    height: 400px;
 }
 
