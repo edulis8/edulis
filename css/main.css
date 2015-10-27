@@ -66,7 +66,22 @@
 }
 
 
-/*---widget---*/
+/*---WIDGETS!--*/
+
+.instawidget {
+	display: none;
+}
+
+.insta-sidebar {
+	text-align: center;
+	display: none;
+	/*background-color: #f5f5f5;*/
+
+}
+
+.buffer-zone {
+	background-color: red;
+}
 
 /*----INTRO-----*/
 .intro {
@@ -129,12 +144,45 @@
 	background: url(../img/carousel/gold-tams.jpg) center no-repeat;
 }
 
+
 /* FOOTER */
 
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	margin-bottom: 325px;
+}
+
 footer {
-	
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 325px;
+	margin: 20px 0 0 0;
+	background-color: #f5f5f5;
+	overflow: hidden;
 	
 }
+
+footer .container {
+	margin-top: 10px;
+}
+
+footer ul.social {
+	list-style-type: none;
+	padding: 0;
+	color: white;
+}
+
+.footerwidget {
+
+}
+
+
 
 
 /* +++++++ MEDIA QUERIES +++++++++ */
@@ -152,6 +200,34 @@ footer {
 	.jumbotron {
 		height: 200px;
 	}
+
+}
+
+/*make sidebar appear*/
+@media only screen and (min-width: 1010px){
+	
+	.insta-sidebar {
+		display: block;
+	}
+
+	.intro {
+		margin-top: 85px;
+	}
+
+
+}
+
+@media only screen and (max-width: 1011px){
+	
+	.instawidget {
+		display: block;
+		
+	}
+
+	.intro {
+		margin-top: 10px;
+	}
+
 
 }
 
