@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+// RANDOMIZE .RANDOM 
 	var random = Math.floor((Math.random()*5) + 1);
 
 	console.log(random);
@@ -23,5 +24,19 @@ $(document).ready(function() {
 		default:
 			$('.random').html("a patch of edible rarities")
 	}
+
+// JQUERY SCROLLTO
+
+$('#goldenberrylink').click(function(event) {
+	$('#goldenberries').ScrollTo();
+});
+
+$('#tamarillolink').click(function(event) {
+	$('#tamarillos').ScrollTo();
+});
+
+$('#passionfruitlink').click(function(event) {
+	$('#passionfruit').ScrollTo();
+});
 	
 });
