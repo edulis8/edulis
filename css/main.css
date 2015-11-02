@@ -111,7 +111,7 @@
 #myCarousel .item, #myCarousel2 .item, #myCarousel3 .item {
    height: 400px;
 }
-
+/*_________________carousel 1 items____________________________*/
 #slide1 {
    background: url(../img/carousel/gbs/infield-med.jpg) center no-repeat;
 }
@@ -121,6 +121,24 @@
 #slide3 {
    background: url(../img/carousel/gbs/muddle-med.jpg) bottom no-repeat;
 }
+#slide4 {
+   background: url(../img/carousel/gbs/waffle-med.jpg) bottom no-repeat;
+}
+#slide5 {
+   background: url(../img/carousel/gbs/dried-med.jpg) center no-repeat;
+}
+#slide6 {
+   background: url(../img/carousel/gbs/cocktail-med.jpg) top no-repeat;
+}
+#slide7 {
+   background: url(../img/carousel/gbs/meat-med.jpg) center no-repeat;
+}
+
+
+
+
+
+
 /*__________carousel 2 items___________*/
 #second-slide1{
 	background: url(../img/carousel/tams/fridgetams-med.jpg) center no-repeat;	
@@ -133,6 +151,7 @@
 	background: url(../img/carousel/tams/yellow-tams-med.jpg) center no-repeat;
 }
 
+/*_________________carousel 3 items ________________*/
 #third-slide1{
 	background: url(../img/carousel/passion/flower-med.jpg) center no-repeat;	
 }
@@ -249,6 +268,20 @@ footer i {
 #slide3 {
    background: url(../img/carousel/gbs/muddle-sm.jpg) bottom no-repeat;
 }
+#slide4 {
+   background: url(../img/carousel/gbs/waffle-sm.jpg) bottom no-repeat;
+}
+#slide5 {
+   background: url(../img/carousel/gbs/dried-sm.jpg) center no-repeat;
+}
+#slide6 {
+   background: url(../img/carousel/gbs/cocktail-sm.jpg) top no-repeat;
+}
+#slide7 {
+   background: url(../img/carousel/gbs/meat-sm.jpg) center no-repeat;
+}
+
+
 
       .carousel-caption {
          font-size: 16px;
@@ -289,6 +322,8 @@ footer i {
 		    height: 500px;
 		 }
 
+		 /*______________carousel 1___________________*/
+
 		#slide1 {
 		   background: url(../img/carousel/gbs/infield.jpg) center no-repeat;
 		}
@@ -298,7 +333,23 @@ footer i {
 		#slide3 {
 		   background: url(../img/carousel/gbs/muddle.jpg) bottom no-repeat;
 		}
+		#slide4 {
+		   background: url(../img/carousel/gbs/waffle.jpg) bottom no-repeat;
+		}
+		#slide5 {
+		   background: url(../img/carousel/gbs/dried.jpg) center no-repeat;
+		}
+		#slide6 {
+		   background: url(../img/carousel/gbs/cocktail.jpg) top no-repeat;
+		}
+		#slide7 {
+		   background: url(../img/carousel/gbs/meat.jpg) center no-repeat;
+		}
 
+
+
+
+	/*__________carousel 2________________*/
 		#second-slide1{
 			background: url(../img/carousel/tams/fridgetams.jpg) center no-repeat;	
 		}
@@ -310,7 +361,9 @@ footer i {
 			background: url(../img/carousel/tams/yellow-tams.jpg) center no-repeat;
 		}
 
-		#third-slide1{
+/*___________carousel 3_________________*/
+
+#third-slide1{
 	background: url(../img/carousel/passion/flower.jpg) center no-repeat;	
 }
 #third-slide2{
