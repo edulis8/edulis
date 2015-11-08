@@ -160,7 +160,7 @@
 }
 
 #third-slide3{
-	background: url(../img/carousel/passion/tendril-med.jpg) top no-repeat;
+	background: url(../img/carousel/passion/sugar-med.jpg) center no-repeat;
 }
 
 
@@ -310,7 +310,7 @@ footer i {
 }
 
 #third-slide3{
-	background: url(../img/carousel/passion/tendril-sm.jpg) top no-repeat;
+	background: url(../img/carousel/passion/sugar-sm.jpg) center no-repeat;
 }
 
 } /* end media query for small screens */
@@ -371,7 +371,7 @@ footer i {
 }
 
 #third-slide3{
-	background: url(../img/carousel/passion/tendril.jpg) top no-repeat;
+	background: url(../img/carousel/passion/sugar.jpg) center no-repeat;
 }
 
 }
